@@ -91,6 +91,23 @@
             line-height: 0.8;
         }
 
+         /* --- FOOTER STYLE --- */
+        .footer {
+            text-align: center;
+            padding: 20px 0 100px 0; /* Padding bawah besar agar tidak tertutup player */
+            color: var(--dark-green);
+            font-size: 0.9rem;
+            font-weight: 600;
+            width: 100%;
+            z-index: 10;
+        }
+
+        .footer span {
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.2rem;
+            color: #d66ba0;
+        }
+        
         /* --- PEMUTAR MUSIK --- */
         .music-player {
             position: fixed;
@@ -178,6 +195,10 @@
             </p>
         </div>
     </div>
+
+    <footer class="footer">
+        &copy; 2026 Created with 💖 by <span>Tri Atmoko</span>. All Rights Reserved.
+    </footer>
 
     <div class="music-player">
         <div class="music-info">♫ Instrumen</div>
